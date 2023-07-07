@@ -1,0 +1,5 @@
+{
+	// The chance a new zombie spawn from a spawner is of the villager variant.
+	// min: 0.0, max: 1.0
+	"isZombieVillagerChance": 0.1
+}

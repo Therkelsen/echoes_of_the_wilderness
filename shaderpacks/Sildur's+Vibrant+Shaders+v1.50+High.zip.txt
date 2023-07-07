@@ -1,0 +1,6 @@
+#Thu Jul 06 15:01:21 CEST 2023
+minlight=0.001
+waterCG=0.1
+wtexblend=0.10
+waterCB=0.1
+watertex=true

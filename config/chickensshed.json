@@ -1,0 +1,11 @@
+{
+  "chicksDropFeathers": true,
+  "dropChance": 26000,
+  "ao": {
+    "dropItem": "minecraft:feather",
+    "mobList": [
+      "minecraft:chicken",
+      "duckling:duck"
+    ]
+  }
+}
