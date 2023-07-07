@@ -1,6 +1,28 @@
 # Echoes of the Wilderness
 This is the official repository and issue tracker for Echoes of the Wilderness.
 
+Prepare to embark on a truly captivating and immersive journey through the untamed lands of 'Echoes of the Wilderness,' where every aspect of this meticulously crafted mod pack has been thoughtfully curated to deliver an unparalleled experience. Seamlessly blending optimized gameplay mechanics with a diverse array of carefully selected vanilla-style mods, this enchanting mod pack invites you to step into a vibrant and dynamic wilderness, where adventure and exploration await at every turn, beckoning you to delve deeper into its rich tapestry of possibilities.
+
+Primary Features:
+
+- Optimizations to improve performance
+- Improved world, terrain, and structure generation
+- Better villagers and piglins
+- Custom building blocks, mobs, and food
+- Data/Resource packs and mods, that revamp textures and the GUI
+- MANY custom recipes for balance
+
+Planned additions, that aren't updated for 1.20.1 yet:
+
+- Ecologics
+- Charm
+- Farmer's Delight
+- Chef's Delight
+- CTOV - Chef's delight compatibility pack
+- EnvironmentZ
+- Dehydration
+- Naturalist
+
 # Installation
 Until the project is approved on CurseForge, you'll have to manually import the profile by getting it from the Releases page on this repo.
 
