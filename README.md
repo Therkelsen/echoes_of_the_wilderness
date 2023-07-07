@@ -53,4 +53,4 @@ Now that you're in the config folder, simply open and edit whichever config file
 
 # Questions / Issues
 
-For any problems or questions, feel free to use the Issues page or DM me on Discord **@therkelsen**.
+For any problems or questions, feel free to use the Issues/Discussions pages, or DM me on Discord **@therkelsen**.
