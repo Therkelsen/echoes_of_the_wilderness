@@ -53,4 +53,4 @@ Now that you're in the config folder, simply open and edit whichever config file
 
 # Questions / Issues
 
-For any problems or questions, feel free to use the [Issues](https://github.com/Therkelsen/echoes_of_the_wilderness/issues)/[Discussions](https://github.com/Therkelsen/echoes_of_the_wilderness/discussions) pages, or DM me on Discord **@therkelsen**.
+For any problems or questions, feel free to use the [Issues](https://github.com/Therkelsen/echoes_of_the_wilderness/issues) / [Discussions](https://github.com/Therkelsen/echoes_of_the_wilderness/discussions) pages, or DM me on Discord **@therkelsen**.
