@@ -1,4 +1,7 @@
 import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.recipe.replacement.Replacer;
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.recipe.SmokerRecipeManager;
 
 /*  .oooooo.                ooooo        
  d8P'  `Y8b               `888'        
@@ -16,7 +19,49 @@ craftingTable.addShaped("enchanted_golden_apple", <item:minecraft:enchanted_gold
 craftingTable.addShaped("village_bell", <item:minecraft:bell>, [
     [<tag:items:minecraft:wooden_fences>, <tag:items:minecraft:wooden_fences>, <tag:items:minecraft:wooden_fences>],
     [<tag:items:minecraft:walls>, <item:minecraft:gold_block>, <tag:items:minecraft:walls>],
-    [<tag:items:minecraft:walls>, <item:minecraft:air>, <tag:items:minecraft:walls>]]);
+    [<tag:items:minecraft:walls>, <item:minecraft:gold_nugget>, <tag:items:minecraft:walls>]]);
+
+craftingTable.addShaped("heart_of_the_sea", <item:minecraft:heart_of_the_sea>, [
+  [<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>],
+  [<item:minecraft:prismarine_crystals>, <item:minecraft:nether_star>, <item:minecraft:prismarine_crystals>],
+  [<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>]]);
+
+craftingTable.addShaped("cobweb", <item:minecraft:cobweb>, [
+  [<item:minecraft:string>, <item:minecraft:air>, <item:minecraft:string>],
+  [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>],
+  [<item:minecraft:string>, <item:minecraft:air>, <item:minecraft:string>]]);
+
+craftingTable.addShaped("name_tag", <item:minecraft:name_tag>, [
+  [<item:minecraft:air>, <item:minecraft:iron_nugget>, <item:minecraft:string>],
+  [<item:minecraft:air>, <item:minecraft:paper>, <item:minecraft:iron_nugget>],
+  [<item:minecraft:paper>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+<tag:items:eotw:natural_vines>.add(<item:minecraft:vine>);
+<tag:items:eotw:natural_vines>.add(<item:swampier_swamps:swamp_vine>);
+Replacer.create().replace<IIngredient>(
+  <recipecomponent:crafttweaker:input/ingredients>, <item:minecraft:vine>, <tag:items:eotw:natural_vines>.asIIngredient()).execute();
+
+craftingTable.addShaped("powder_snow_bucket", <item:minecraft:powder_snow_bucket>, [
+  [<item:minecraft:snow_block>],
+  [<item:minecraft:bucket>]]);
+
+smoker.addRecipe("rotten_flesh_to_leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 0.0, 1200);
+
+craftingTable.addShaped("chest_from_log", <item:minecraft:chest> * 4, [
+  [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+  [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>],
+  [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
+
+craftingTable.addShaped("stick_from_sapling", <item:minecraft:stick> * 4, [
+  [<tag:items:minecraft:saplings>]]);
+
+/*      .o.                                                                                 .                 
+     .888.                                                                              .o8                 
+    .8"888.     oooo d8b ooo. .oo.  .oo.    .ooooo.  oooo d8b  .oooo.o       .ooooo.  .o888oo  .ooooo.      
+   .8' `888.    `888""8P `888P"Y88bP"Y88b  d88' `88b `888""8P d88(  "8      d88' `88b   888   d88' `"Y8     
+  .88ooo8888.    888      888   888   888  888   888  888     `"Y88b.       888ooo888   888   888           
+ .8'     `888.   888      888   888   888  888   888  888     o.  )88b      888    .o   888 . 888   .o8 .o. 
+o88o     o8888o d888b    o888o o888o o888o `Y8bod8P' d888b    8""888P'      `Y8bod8P'   "888" `Y8bod8P' Y8P*/
 
 craftingTable.remove(<item:minecraft:leather_horse_armor>);
 craftingTable.addShaped("leather_horse_armor", <item:minecraft:leather_horse_armor>, [
@@ -44,25 +89,30 @@ craftingTable.addShaped("saddle", <item:minecraft:saddle>,[
   [<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>],
   [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.addShaped("heart_of_the_sea", <item:minecraft:heart_of_the_sea>, [
-  [<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>],
-  [<item:minecraft:prismarine_crystals>, <item:minecraft:nether_star>, <item:minecraft:prismarine_crystals>],
-  [<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_shard>]]);
-
-craftingTable.addShaped("cobweb", <item:minecraft:cobweb>, [
-  [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>],
-  [<item:minecraft:string>, <item:minecraft:air>, <item:minecraft:string>],
-  [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>]]);
-
-craftingTable.addShaped("name_tag", <item:minecraft:name_tag>, [
-  [<item:minecraft:air>, <item:minecraft:iron_nugget>, <item:minecraft:string>],
-  [<item:minecraft:air>, <item:minecraft:paper>, <item:minecraft:iron_nugget>],
-  [<item:minecraft:paper>, <item:minecraft:air>, <item:minecraft:air>]]);
-
 craftingTable.addShaped("totem_of_undying", <item:minecraft:totem_of_undying>, [
   [<item:minecraft:emerald>, <item:minecraft:carved_pumpkin>, <item:minecraft:emerald>],
   [<item:minecraft:air>, <item:minecraft:gold_block>, <item:minecraft:air>],
   [<item:minecraft:air>, <item:minecraft:ghast_tear>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("chainmail_helmet", <item:minecraft:chainmail_helmet>, [
+  [<item:minecraft:chain>, <item:minecraft:chain>, <item:minecraft:chain>],
+  [<item:minecraft:chain>, <item:minecraft:air>, <item:minecraft:chain>],
+  [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("chainmail_chestplate", <item:minecraft:chainmail_chestplate>, [
+  [<item:minecraft:chain>, <item:minecraft:air>, <item:minecraft:chain>],
+  [<item:minecraft:chain>, <item:minecraft:chain>, <item:minecraft:chain>],
+  [<item:minecraft:chain>, <item:minecraft:chain>, <item:minecraft:chain>]]);
+
+craftingTable.addShaped("chainmail_leggings", <item:minecraft:chainmail_leggings>, [
+  [<item:minecraft:chain>, <item:minecraft:chain>, <item:minecraft:chain>],
+  [<item:minecraft:chain>, <item:minecraft:air>, <item:minecraft:chain>],
+  [<item:minecraft:chain>, <item:minecraft:air>, <item:minecraft:chain>]]);
+
+craftingTable.addShaped("chainmail_boots", <item:minecraft:chainmail_boots>, [
+  [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+  [<item:minecraft:chain>, <item:minecraft:air>, <item:minecraft:chain>],
+  [<item:minecraft:chain>, <item:minecraft:air>, <item:minecraft:chain>]]);
 
 /* .oooooo..o oooo             .o8                       .oo.     
 d8P'    `Y8 `888            "888                     .88' `8.   
@@ -144,6 +194,55 @@ craftingTable.addShaped("nether_wart_block", <item:minecraft:nether_wart_block>,
   [<item:minecraft:nether_wart>, <item:minecraft:nether_wart>, <item:minecraft:nether_wart>],
   [<item:minecraft:nether_wart>, <item:minecraft:nether_wart>, <item:minecraft:nether_wart>],
   [<item:minecraft:nether_wart>, <item:minecraft:nether_wart>, <item:minecraft:nether_wart>]]);
+
+craftingTable.addShapeless("glowstone_dust", <item:minecraft:glowstone_dust>, [<item:minecraft:glow_berries>]);
+
+craftingTable.addShaped("blaze_rod", <item:minecraft:blaze_rod>, [
+  [<item:minecraft:blaze_powder>, <item:minecraft:blaze_powder>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("crying_obsidian", <item:minecraft:crying_obsidian>, [
+  [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>],
+  [<item:minecraft:obsidian>, <item:minecraft:ghast_tear>, <item:minecraft:obsidian>],
+  [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]]);
+
+<tag:items:eotw:natural_flowers>.add(<tag:items:minecraft:flowers>);
+<tag:items:eotw:natural_flowers>.remove(<item:minecraft:wither_rose>);
+craftingTable.addShaped("wither_rose", <item:minecraft:wither_rose> * 8, [
+  [<tag:items:eotw:natural_flowers>, <tag:items:eotw:natural_flowers>, <tag:items:eotw:natural_flowers>],
+  [<tag:items:eotw:natural_flowers>, <item:minecraft:wither_skeleton_skull>, <tag:items:eotw:natural_flowers>],
+  [<tag:items:eotw:natural_flowers>, <tag:items:eotw:natural_flowers>, <tag:items:eotw:natural_flowers>]]);
+
+/*oooooooooo.                                       oooooooooo.                      oooo        
+`888'   `Y8b                                      `888'   `Y8b                     `888        
+ 888      888  .ooooo.   .ooooo.  oo.ooooo.        888      888  .oooo.   oooo d8b  888  oooo  
+ 888      888 d88' `88b d88' `88b  888' `88b       888      888 `P  )88b  `888""8P  888 .8P'   
+ 888      888 888ooo888 888ooo888  888   888       888      888  .oP"888   888      888888.    
+ 888     d88' 888    .o 888    .o  888   888       888     d88' d8(  888   888      888 `88b.  
+o888bood8P'   `Y8bod8P' `Y8bod8P'  888bod8P'      o888bood8P'   `Y888""8o d888b    o888o o888o 
+                                   888                                                         
+                                  o888o*/
+
+craftingTable.addShaped("sculk_sensor", <item:minecraft:sculk_sensor>, [
+  [<item:minecraft:echo_shard>, <item:minecraft:air>, <item:minecraft:echo_shard>],
+  [<item:blockus:polished_sculk_slab>, <item:blockus:polished_sculk_slab>, <item:blockus:polished_sculk_slab>]]);
+
+craftingTable.addShaped("sculk_shrieker", <item:minecraft:sculk_shrieker>, [
+  [<item:minecraft:sculk_sensor>],
+  [<item:minecraft:sculk_catalyst>]]);
+
+craftingTable.addShaped("sculk_catalyst", <item:minecraft:sculk_catalyst>, [
+  [<item:minecraft:sculk_vein>],
+  [<item:minecraft:end_stone>]]);
+
+// tag fuckery to make any vine work
+<tag:items:eotw:all_vines>.add(<item:minecraft:weeping_vines>);
+<tag:items:eotw:all_vines>.add(<item:minecraft:twisting_vines>);
+<tag:items:eotw:all_vines>.add(<item:minecraft:vine>);
+<tag:items:eotw:all_vines>.add(<item:swampier_swamps:swamp_vine>);
+
+craftingTable.addShaped("sculk_vein", <item:minecraft:sculk_vein> * 3, [
+  [<item:minecraft:echo_shard>, <tag:items:eotw:all_vines>],
+  [<tag:items:eotw:all_vines>, <tag:items:eotw:all_vines>]]);
 
 /* .oooooo..o                                                                                                 
 d8P'    `Y8                                                                                                 
@@ -277,3 +376,5 @@ craftingTable.addShaped("zombified_piglin_spawn_egg", <item:minecraft:zombified_
   [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>],
   [<item:minecraft:rotten_flesh>, <item:minecraft:piglin_spawn_egg>, <item:minecraft:rotten_flesh>],
   [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>]]);
+
+craftingTable.addShaped("dragon_breath", <item:minecraft:dragon_breath> * 8, [[<item:minecraft:dragon_head>]]);
