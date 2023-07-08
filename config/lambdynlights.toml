@@ -273,15 +273,16 @@ mode = "fancy"
 				infected_piglin_brute = true
 				tropical_spider = true
 				soul_stealer = true
-				corsair = true
 				infected_piglin = true
 				armored_spider = true
-				forgotten = true
+				executioner = true
 				cave_creeper = true
-				explorer = true
 				frozen_zombie = true
 				nightmare = true
 				undead_warrior = true
+				corsair = true
+				forgotten = true
+				explorer = true
 
 			[light_sources.settings.entities.oxidized]
 				copper_golem = true
@@ -299,5 +300,6 @@ mode = "fancy"
 
 			[light_sources.settings.entities.tinyskeletons]
 				baby_stray = true
+				baby_wither_skeleton = true
 				baby_skeleton = true
 
