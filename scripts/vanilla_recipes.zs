@@ -55,6 +55,11 @@ craftingTable.addShaped("chest_from_log", <item:minecraft:chest> * 4, [
 craftingTable.addShaped("stick_from_sapling", <item:minecraft:stick> * 4, [
   [<tag:items:minecraft:saplings>]]);
 
+<tag:items:c:feathers>.add(<item:minecraft:feather>);
+<tag:items:c:feathers>.add(<item:creatures_from_the_snow:penguin_feather>);
+Replacer.create().replace<IIngredient>(
+  <recipecomponent:crafttweaker:input/ingredients>, <item:minecraft:feather>, <tag:items:c:feathers>.asIIngredient()).execute();
+
 /*      .o.                                                                                 .                 
      .888.                                                                              .o8                 
     .8"888.     oooo d8b ooo. .oo.  .oo.    .ooooo.  oooo d8b  .oooo.o       .ooooo.  .o888oo  .ooooo.      

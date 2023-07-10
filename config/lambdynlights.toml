@@ -175,6 +175,10 @@ mode = "fancy"
 				islehopper = true
 				pondie = true
 
+			[light_sources.settings.entities.creatures_from_the_snow]
+				reindeer = true
+				penguin = true
+
 			[light_sources.settings.entities.frostiful]
 				frost_spell = true
 				packed_snowball = true
