@@ -248,6 +248,7 @@ mode = "fancy"
 				dark_oak_creeper = true
 				desert_creeper = true
 				dripstone_creeper = true
+				mushroom_creeper = true
 
 			[light_sources.settings.entities.lovely_snails]
 				snail = true

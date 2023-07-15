@@ -29,7 +29,8 @@
     "frostologerMaxPassiveFreezing": 0.5,
     "biterFrostBiteMaxAmplifier": 2,
     "chillagerFireDamageMultiplier": 1.5,
-    "furUpgradeTemplateGenerateChance": 0.5
+    "furUpgradeTemplateGenerateChance": 0.5,
+    "skateUpgradeTemplateGenerateChance": 0.33
   },
   "freezingConfig": {
     "doPassiveFreezing": true,
