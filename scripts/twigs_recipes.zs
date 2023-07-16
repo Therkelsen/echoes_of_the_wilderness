@@ -14,20 +14,26 @@ o888bood8P'  `Y888""8o o888o `Y888""8o o888o o888o `Y8bod8P' o888o o888o o888o `
 
 craftingTable.removeByName("twigs:stick_from_twig");
 <tag:items:c:wooden_rods>.add(<item:twigs:twig>);
+<tag:items:c:wooden_rods>.add(<item:minecraft:stick>);
 Replacer.create().replace<IIngredient>(
   <recipecomponent:crafttweaker:input/ingredients>, <item:minecraft:stick>, <tag:items:c:wooden_rods>.asIIngredient()).execute();
 
 <tag:items:c:rope>.add(<item:supplementaries:rope>);
 
-/*                  ooooooooooooo                   o8o                      
-                  8'   888   `8                   `"'                      
-                       888      oooo oooo    ooo oooo   .oooooooo  .oooo.o 
-                       888       `88. `88.  .8'  `888  888' `88b  d88(  "8 
-     8888888           888        `88..]88..8'    888  888   888  `"Y88b.  
-                       888         `888'`888'     888  `88bod8P'  o.  )88b 
-                      o888o         `8'  `8'     o888o `8oooooo.  8""888P' 
-                                                       d"     YD           
-                                                       "Y88888P'*/
+/* .oooooo..o oooo             .o8                       .oo.     
+d8P'    `Y8 `888            "888                     .88' `8.   
+Y88bo.       888   .oooo.    888oooo.   .oooo.o      88.  .8'   
+ `"Y8888o.   888  `P  )88b   d88' `88b d88(  "8      `88.8P     
+     `"Y88b  888   .oP"888   888   888 `"Y88b.        d888[.8'  
+oo     .d8P  888  d8(  888   888   888 o.  )88b      88' `88.   
+8""88888P'  o888o `Y888""8o  `Y8bod8P' 8""888P'      `bodP'`88.
+ .oooooo..o     .              o8o                    
+d8P'    `Y8   .o8              `"'                    
+Y88bo.      .o888oo  .oooo.   oooo  oooo d8b  .oooo.o 
+ `"Y8888o.    888   `P  )88b  `888  `888""8P d88(  "8 
+     `"Y88b   888    .oP"888   888   888     `"Y88b.  
+oo     .d8P   888 . d8(  888   888   888     o.  )88b 
+8""88888P'    "888" `Y888""8o o888o d888b    8""888P'*/
 
 var twigs_variants = ["bamboo_thatch", "cobblestone_bricks", "mossy_cobblestone_bricks", "smooth_stone_bricks", "calcite",
                       "polished_calcite", "polished_calcite_bricks", "tuff", "polished_tuff", "polished_tuff_bricks", "schist",

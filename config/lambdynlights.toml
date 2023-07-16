@@ -175,6 +175,10 @@ mode = "fancy"
 				islehopper = true
 				pondie = true
 
+			[light_sources.settings.entities.creatures_from_the_snow]
+				reindeer = true
+				penguin = true
+
 			[light_sources.settings.entities.frostiful]
 				frost_spell = true
 				packed_snowball = true
@@ -244,6 +248,7 @@ mode = "fancy"
 				dark_oak_creeper = true
 				desert_creeper = true
 				dripstone_creeper = true
+				mushroom_creeper = true
 
 			[light_sources.settings.entities.lovely_snails]
 				snail = true
