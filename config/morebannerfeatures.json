@@ -3,7 +3,7 @@
   "samurai_banner": false,
   "fox_correction": true,
   "banner_glint": false,
-  "horse_slot": true,
+  "horse_slot": false,
   "errors": true,
   "pig_banners": true,
   "boat_banners": true,

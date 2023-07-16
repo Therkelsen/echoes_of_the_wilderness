@@ -2,11 +2,14 @@ v0.3 changelog:
 
 * Updated mods:
     * Architectury API
+    * Chat Heads
     * Cloth Config API
     * Collective
     * Colorful Goats
+    * Controlling
     * CraftTweaker
     * CreativeCore
+    * Cristel Lib
     * Croptopia
     * Debugify
     * Entity Model Features
@@ -51,6 +54,7 @@ v0.3 changelog:
   * Added Cinnamon Leaves translation to Croptopia, so it shows up in Jade. I have a PR open in the repo for Croptopia about this, so this workaround should be temporary.
   * Changed FallingTree config to be instant, rather than shift down.
   * Changed the chance of Mooshroom Cows to become brown.
+  * Disabled banner slot on horses, donkeys and mules.
   * Disabled the arm being rendered for Better Combat animations.
   * Fixed stick/twigs recipes error where it would only take twigs. Now takes both.
   * Lowered severity of Passive Freezing done by Frostiful mod.
