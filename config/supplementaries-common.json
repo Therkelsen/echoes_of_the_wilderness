@@ -1,4 +1,5 @@
 {
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "redstone": {
     "speaker_block": {
       "enabled": true,
@@ -112,7 +113,9 @@
     },
     "flax": {
       "enabled": true,
-      "wild_flax": true
+      "wild_flax": true,
+      "wandering_trader_trades": 2,
+      "farmer_trades": 1
     },
     "fodder": true,
     "hourglass": true
@@ -173,7 +176,7 @@
     "globe": {
       "enabled": true,
       "sepia_globe": true,
-      "chance": 2
+      "wandering_trader_trades": 2
     },
     "sign_post": {
       "enabled": true,
@@ -186,7 +189,10 @@
       "enabled": true,
       "wattle_and_daub": true
     },
-    "ash_bricks": true,
+    "ash_bricks": {
+      "enabled": true,
+      "mason_trades": true
+    },
     "lapis_bricks": true,
     "deepslate_lamp": true,
     "end_stone_lamp": true,
@@ -214,7 +220,7 @@
       "enabled": true,
       "use_without_slow": true,
       "slots": 6,
-      "quiver_skeleton_chance": 0.2,
+      "quiver_skeleton_spawn_chance": 0.03,
       "only_works_in_curio": false,
       "quiver_pickup": true
     },
@@ -258,14 +264,16 @@
       "stasis_deceleration": 0.9625,
       "unrestricted_enderman_intercept": true
     },
-    "antique_ink": true,
+    "antique_ink": {
+      "enabled": true,
+      "cartographer_trades": true
+    },
     "candy": true,
     "stasis": true
   },
   "general": {
     "creative_tab": false,
     "dispensers": true,
-    "jar_tab": false,
     "debug_save_dynamic_pack": false,
     "server_protection": false,
     "red_merchant_spawn_multiplier": 1.0
@@ -328,7 +336,8 @@
     },
     "bottle_xp": {
       "enabled": false,
-      "cost": 2
+      "cost": 2,
+      "target_block": ""
     },
     "map_tweaks": {
       "random_adventurer_maps": true,
@@ -351,6 +360,9 @@
     },
     "noteblocks_scare": {
       "enabled": true
+    },
+    "bad_luck_tweaks": {
+      "lightning_unluck": true
     }
   }
 }

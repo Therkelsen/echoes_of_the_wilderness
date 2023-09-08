@@ -1,15 +1,1 @@
-[
-  {
-    "user": {
-      "type": "player",
-      "name": "SirTherkelsen",
-      "uniqueId": "d1df09e4-fc49-449c-b889-19eee0dbf544"
-    },
-    "time": 1688296413314,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/o3LbI8ZL4N"
-    }
-  }
-]
+[]

@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:12
-simulationDistance:5
+renderDistance:32
+simulationDistance:32
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","Supplementaries Generated Pack","supplementaries:darker_ropes","Snowyspirit Generated Pack","tinyskeletons","file/ctov-friends-and-foes-add-on-v2-0.zip","file/Stay_True_1.20.zip","file/NoBushyLeaves.zip","file/UniqueDark_1.20.1.zip","file/Slightly-Improved-Font-1.0.0.zip","continuity:default","betterbeds:fancyconnectedbeds","file/Icons+v.1.8.zip","file/Icons Menu (Put Above Icons).zip","file/[1.3] Enhanced Boss Bars.zip","file/LowOnFire_1.20.1.zip","continuity:glass_pane_culling_fix","minecraft:supporteatinganimation","file/Remodeled Dragon Egg V3.zip","file/Rain Revamp [1.20].zip","file/better_flame_particles-v1.0-mc1.20-resourcepack.zip"]
-incompatibleResourcePacks:["supplementaries:darker_ropes","file/Slightly-Improved-Font-1.0.0.zip","betterbeds:fancyconnectedbeds","file/Remodeled Dragon Egg V3.zip"]
+resourcePacks:["vanilla","fabric","supplementaries:darker_ropes","tinyskeletons","file/ctov-friends-and-foes-add-on-v2-0.zip","file/Stay_True_1.20.zip","file/Stay+True+Compats+v7+[1.19].zip","file/NoBushyLeaves.zip","file/UniqueDark_1.20.1.zip","file/Slightly-Improved-Font-1.0.0.zip","continuity:default","betterbeds:fancyconnectedbeds","file/Icons+v.1.8.zip","file/Icons Menu (Put Above Icons).zip","file/[1.3] Enhanced Boss Bars.zip","file/LowOnFire_1.20.1.zip","continuity:glass_pane_culling_fix","minecraft:supporteatinganimation","file/Remodeled Dragon Egg V3.zip","file/Rain Revamp [1.20].zip","file/better_flame_particles-v1.0-mc1.20-resourcepack.zip","Moonlight Mods Dynamic Assets","file/ctov-farmers-delight-add-on-v2-0.zip"]
+incompatibleResourcePacks:["supplementaries:darker_ropes","file/Stay+True+Compats+v7+[1.19].zip","file/Slightly-Improved-Font-1.0.0.zip","betterbeds:fancyconnectedbeds","file/Remodeled Dragon Egg V3.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -119,8 +119,6 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.dynamicfps.toggle_forced:key.keyboard.unknown
-key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
 key_key.antighost.reveal:key.keyboard.g
 key_keybinds.bettercombat.feint:key.keyboard.unknown
@@ -140,6 +138,8 @@ key_key.craftingtweaks.decompressAll:key.keyboard.unknown
 key_key.craftingtweaks.refill_last:key.keyboard.tab
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab
 key_key.craftingtweaks.transfer_stack:key.keyboard.unknown
+key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
+key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.fabricskyboxes.toggle:key.keyboard.keypad.0
 key_fpsreducer.key.openGui:key.keyboard.end
@@ -158,6 +158,7 @@ key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details_alternative:key.keyboard.unknown
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.modmenu.open_menu:key.keyboard.unknown
+key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.spyglass-improvements.use:key.keyboard.z
 key_key.trashslot.toggle:key.keyboard.t

@@ -38,5 +38,6 @@
   "ignoredConfigs": [],
   "hideConfigButton": false,
   "disableVanillaDirectoryVariantTextures": false,
-  "use3DSkinLayerPatch": true
+  "use3DSkinLayerPatch": true,
+  "enableFullBodyWardenTextures": true
 }

@@ -6,7 +6,7 @@ allow_lily_pad = true
 allow_nether_wart = true
 #Allow bone meal to work on podzol for creating ferns and sweet berry bushes.
 allow_podzol = true
-#Allow bone meal to work on vines.
+#Allow bone meal to work on all kinds of vines.
 allow_vines = true
 #Allow bone meal to work on chorus plants and flowers.
 #The algorithm searches upwards for connected chorus flowers and has a range limit of 48 blocks.
@@ -26,4 +26,6 @@ allow_dirt = true
 allow_cactus = true
 #Allow bone meal to work on dead bushes making them spread around.
 allow_dead_bush = true
+#Allow bone meal to work on spore blossoms for dropping an additional spore blossom per bone meal used.
+allow_spore_blossom = true
 

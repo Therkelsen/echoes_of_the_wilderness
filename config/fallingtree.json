@@ -18,7 +18,6 @@
     "leavesBreakingForceRadius": 0,
     "allowMixedLogs": false,
     "breakNetherTreeWarts": true,
-    "instantlyBreakWarts": true,
     "breakMangroveRoots": true,
     "searchAreaRadius": -1,
     "allowedAdjacentBlocks": [],
@@ -40,7 +39,8 @@
   "enchantment": {
     "registerEnchant": false,
     "registerSpecificEnchant": false,
-    "hideEnchant": false
+    "hideEnchant": false,
+    "requireEnchantment": false
   },
   "sneakMode": "SNEAK_DISABLE",
   "breakInCreative": false,
