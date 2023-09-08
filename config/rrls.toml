@@ -2,5 +2,7 @@ enabled = true
 rgbProgress = false
 loadingScreenHide = false
 showIn = "ALL"
+type = "PROGRESS"
+reloadText = ""
 resetResources = true
 reInitScreen = true

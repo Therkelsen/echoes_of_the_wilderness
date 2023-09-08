@@ -277,10 +277,15 @@ craftingTable.addShaped("creeper_spawn_egg", <item:minecraft:creeper_spawn_egg>,
 
 // tag fuckery to make all raw fishes count
 <tag:items:croptopia:fishes>.add(<tag:items:fishofthieves:thieves_fish>);
-<tag:items:croptopia:fishes>.add(<item:varietyaquatic:raw_betta>);
-<tag:items:croptopia:fishes>.add(<item:varietyaquatic:raw_piranha>);
-<tag:items:croptopia:fishes>.add(<item:varietyaquatic:raw_tetra>);
-<tag:items:croptopia:fishes>.add(<item:varietyaquatic:raw_lionfish>);
+<tag:items:croptopia:fishes>.add(<tag:items:croptopia:fishes>);
+<tag:items:croptopia:fishes>.add(<tag:items:minecraft:fishes>);
+<tag:items:croptopia:fishes>.add(<item:hybrid-aquatic:raw_fish_meat>);
+<tag:items:croptopia:fishes>.add(<item:hybrid-aquatic:raw_tentacle>);
+<tag:items:croptopia:fishes>.add(<item:hybrid-aquatic:raw_crab_meat>);
+<tag:items:croptopia:fishes>.add(<item:culturaldelights:raw_calamari>);
+<tag:items:croptopia:fishes>.add(<item:culturaldelights:squid>);
+<tag:items:croptopia:fishes>.add(<item:culturaldelights:glow_squid>);
+
 
 craftingTable.addShaped("drowned_spawn_egg", <item:minecraft:drowned_spawn_egg>, [
   [<item:minecraft:air>, <tag:items:croptopia:fishes>, <item:minecraft:air>],
@@ -383,3 +388,10 @@ craftingTable.addShaped("zombified_piglin_spawn_egg", <item:minecraft:zombified_
   [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>]]);
 
 craftingTable.addShaped("dragon_breath", <item:minecraft:dragon_breath> * 8, [[<item:minecraft:dragon_head>]]);
+
+<tag:items:eotw:barley_and_wheat>.add(<item:minecraft:wheat>);
+<tag:items:eotw:barley_and_wheat>.add(<item:croptopia:barley>);
+Replacer.create().replace<IIngredient>(
+  <recipecomponent:crafttweaker:input/ingredients>, <item:minecraft:wheat>, <tag:items:eotw:barley_and_wheat>.asIIngredient()).execute();
+Replacer.create().replace<IIngredient>(
+  <recipecomponent:crafttweaker:input/ingredients>, <item:croptopia:barley>, <tag:items:eotw:barley_and_wheat>.asIIngredient()).execute();

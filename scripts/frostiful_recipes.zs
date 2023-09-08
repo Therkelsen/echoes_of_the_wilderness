@@ -48,3 +48,27 @@ craftingTable.addShaped("cut_blue_ice_stairs", <item:frostiful:cut_blue_ice_stai
     [<item:frostiful:cut_blue_ice>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:frostiful:cut_blue_ice>, <item:frostiful:cut_blue_ice>, <item:minecraft:air>],
     [<item:frostiful:cut_blue_ice>, <item:frostiful:cut_blue_ice>, <item:frostiful:cut_blue_ice>]]);
+
+craftingTable.removeByName("frostiful:shapeless/fur_padding_from_ocelot_fur");
+craftingTable.removeByName("frostiful:shapeless/fur_padding_from_polar_bear_fur");
+craftingTable.removeByName("frostiful:shapeless/fur_padding_from_rabbit_hide");
+craftingTable.removeByName("frostiful:shapeless/fur_padding_from_wolf_fur");
+
+<tag:items:eotw:big_animal_fur>.add(<item:frostiful:polar_bear_fur_tuft>);
+<tag:items:eotw:big_animal_fur>.add(<item:environmentz:polar_bear_fur>);
+<tag:items:eotw:big_animal_fur>.add(<item:creatures_from_the_snow:snow_giraffe_fur>);
+
+craftingTable.addShaped("fur_padding_from_big_animal", <item:frostiful:fur_padding>, [
+    [<tag:items:eotw:big_animal_fur>, <tag:items:eotw:big_animal_fur>, <tag:items:eotw:big_animal_fur>],
+    [<tag:items:eotw:big_animal_fur>, <tag:items:eotw:big_animal_fur>, <tag:items:eotw:big_animal_fur>],
+    [<tag:items:eotw:big_animal_fur>, <tag:items:eotw:big_animal_fur>, <tag:items:eotw:big_animal_fur>]
+]);
+
+<tag:items:eotw:small_animal_fur>.add(<item:frostiful:wolf_fur_tuft>);
+<tag:items:eotw:small_animal_fur>.add(<item:frostiful:ocelot_fur_tuft>);
+<tag:items:eotw:small_animal_fur>.add(<item:minecraft:rabbit_hide>);
+
+craftingTable.addShaped("fur_padding_from_small_animal", <item:frostiful:fur_padding>, [
+    [<tag:items:eotw:small_animal_fur>, <tag:items:eotw:small_animal_fur>],
+    [<tag:items:eotw:small_animal_fur>, <tag:items:eotw:small_animal_fur>]
+]);

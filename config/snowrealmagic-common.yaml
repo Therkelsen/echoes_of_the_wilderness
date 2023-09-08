@@ -20,3 +20,6 @@ accumulation:
   maxLayers: 8
   accumulatesDuringSnowstorm: true
   accumulatesDuringSnowfall: false
+debug:
+  weatherTickSlowness: 16
+  mobSpawningCommand: false

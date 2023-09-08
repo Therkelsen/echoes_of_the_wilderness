@@ -303,6 +303,40 @@ mode = "fancy"
 				mauler = true
 				iceologer = true
 
+			[light_sources.settings.entities.hybrid-aquatic]
+				moon_jelly = true
+				nudibranch = true
+				zebra_danio = true
+				unicorn_fish = true
+				sea_urchin = true
+				cowfish = true
+				clownfish = true
+				cuttlefish = true
+				discus = true
+				blue_spotted_stingray = true
+				anglerfish = true
+				sea_nettle = true
+				starfish = true
+				seahorse = true
+				blue_tang = true
+				rockfish = true
+				oscar = true
+				lionfish = true
+				triggerfish = true
+				piranha = true
+				mahimahi = true
+				toadfish = true
+				hermit_crab = true
+				betta = true
+				stonefish = true
+				giant_clam = true
+				sea_cucumber = true
+				needlefish = true
+				yellowfin_tuna = true
+				moray_eel = true
+				crab = true
+				fiddler_crab = true
+
 			[light_sources.settings.entities.tinyskeletons]
 				baby_stray = true
 				baby_wither_skeleton = true

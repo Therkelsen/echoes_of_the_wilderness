@@ -10,6 +10,22 @@
     "currentConfigVersion": 2,
     "enableConfigUpdates": true
   },
+  "environmentConfig": {
+    "doDryBiomeNightFreezing": true,
+    "biomeTemperatureMultiplier": 4.0,
+    "passiveFreezingCutoffTemp": 0.25,
+    "nightTimeTemperatureDecrease": 0.25,
+    "rainWetnessIncrease": 1,
+    "touchingWaterWetnessIncrease": 5,
+    "dryRate": 1,
+    "onFireDryDate": 50,
+    "onFireWarmRate": 50,
+    "powderSnowFreezeRate": 30,
+    "warmthPerLightLevel": 2,
+    "minLightForWarmth": 5,
+    "ultrawarmWarmRate": 15,
+    "dryBiomeNightTemperature": 0.0
+  },
   "combatConfig": {
     "doChillagerPatrols": true,
     "straysCarryFrostArrows": true,
@@ -35,8 +51,10 @@
   "freezingConfig": {
     "doPassiveFreezing": true,
     "doWindSpawning": true,
+    "windSpawnStrategy": "ENTITY",
     "spawnWindInAir": true,
     "windDestroysTorches": true,
+    "doSnowPacking": true,
     "windSpawnCapPerSecond": 15,
     "windSpawnRarity": 750,
     "windSpawnRarityThunder": 500,
