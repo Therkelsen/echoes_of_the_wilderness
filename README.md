@@ -1,27 +1,21 @@
 # Echoes of the Wilderness
 This is the official repository and issue tracker for Echoes of the Wilderness.
 
-Prepare to embark on a truly captivating and immersive journey through the untamed lands of 'Echoes of the Wilderness,' where every aspect of this meticulously crafted mod pack has been thoughtfully curated to deliver an unparalleled experience. Seamlessly blending optimized gameplay mechanics with a diverse array of carefully selected vanilla-style mods, this enchanting mod pack invites you to step into a vibrant and dynamic wilderness, where adventure and exploration await at every turn, beckoning you to delve deeper into its rich tapestry of possibilities.
+The ‘Echoes of the Wilderness’ modpack is a collection of over 250 mods, data packs and resource packs that enhance the vanilla Minecraft experience. It started as a lightweight pack, but grew to include more features and content. Every addition to EOTW is carefully selected to preserve the original feel and style of the game. This modpack is for anyone who loves the vanilla Minecraft gameplay, but wants more variety, depth and adventure.
 
-Primary Features:
-
-- Optimizations to improve performance
+## Primary Features
+- Many optimizations to improve performance
 - Improved world, terrain, and structure generation
 - Better villagers and piglins
 - Custom building blocks, mobs, and food
 - Data/Resource packs and mods, that revamp textures and the GUI
 - MANY custom recipes for balance
-
-Planned additions, that aren't updated for 1.20.1 yet:
-
-- Ecologics
+ 
+## Mods that might get added, that will be tested once for 1.20.1
 - Charm
-- Farmer's Delight
-- Chef's Delight
-- CTOV - Chef's delight compatibility pack
-- EnvironmentZ
-- Dehydration
+- Ecologics
 - Naturalist
+- Variety Birds
 
 # Installation
 ## Installation through CurseForge
