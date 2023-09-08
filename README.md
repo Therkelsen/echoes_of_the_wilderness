@@ -24,7 +24,15 @@ Planned additions, that aren't updated for 1.20.1 yet:
 - Naturalist
 
 # Installation
-Until the project is approved on CurseForge, you'll have to manually import the profile by getting it from the Releases page on this repo.
+## Installation through CurseForge
+1. If you don't already have it, download and install the [CurseForge launcher](https://www.curseforge.com/download/app).
+
+2. Search for "Echoes of the Wilderness" by "Sir_Therkelsen"
+
+3. Click install 
+
+Once it's done installing the profile, it should be ready to launch and play!
+## Manual Install
 
 1. Head over to the [Releases page](https://github.com/Therkelsen/echoes_of_the_wilderness/releases) and download the latest realease .zip file.
 
